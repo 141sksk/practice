@@ -1,11 +1,12 @@
 def main():
 
     N = int(input())
-    sushi_plates = list(map(int,input().split()))
+    sushi_plates = list(map(int, input().split()))
 
     if N == 1:
-        print(sushi_plates.pop())
-        exit()
+        # print(sushi_plates.pop())
+        print(sushi_plates[0])
+        # exit()
 
     else:
         answers = [0] * (N + 1)
