@@ -1,9 +1,9 @@
+def bin1(n):
+    return bin(n).count("1")
+
 def main():
 
     goal = int(input())
-
-    def bin1(n):
-        return bin(n).count("1")
 
     Q = [0] * (goal + 1)
     q = [1]
@@ -11,6 +11,7 @@ def main():
  
     while q:
         position = q.pop(0)
+        print(position)
         stepLength = bin1(position)
         stepCount = Q[position]
         go = position + stepLength
@@ -21,6 +22,7 @@ def main():
         if back > 0 and Q[back] == 0:
             Q[back] = stepCount + 1
             q.append(back)
+        print(q)
 
     if Q[goal] != 0:
         print(Q[goal])
