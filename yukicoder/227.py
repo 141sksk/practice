@@ -13,7 +13,7 @@ def main():
     elif lst.count(3) == 1 and lst.count(2) == 1:
         print("FULL HOUSE")
     else:
-        print("NO PAIR")
+        print("NO HAND")
 
 if __name__ == "__main__":
     main()
