@@ -1,5 +1,4 @@
 def main():
-
     N = int(input())
     myList = list(map(int, input().split()))
     oddCount = 0
@@ -10,6 +9,5 @@ def main():
         else:
             oddCount += 1
     print(abs(oddCount - evenCount))
-
 if __name__ == "__main__":
     main()

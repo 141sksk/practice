@@ -1,5 +1,4 @@
 def main():
-
     Sa, Pa, Xa = map(str, input().split())
     Sb, Pb, Xb = map(str, input().split())
     if int(Pa) > int(Pb):
@@ -8,6 +7,5 @@ def main():
         print(Sb)
     else:
         print("-1")
-
 if __name__ == "__main__":
     main()
