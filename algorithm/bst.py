@@ -29,3 +29,4 @@ def search(T, n):
 
 X = insert((), 6)
 show(X)
+
