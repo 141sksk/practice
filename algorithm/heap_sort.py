@@ -12,7 +12,7 @@ def right(n):
 
 def exchange_nodes(A, n, last):
     if last < left(n):
-        return 
+        return
     child = left(n)
     if right(n) <= last:
         if A[left(n)] < A[right(n)]:
