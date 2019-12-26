@@ -16,9 +16,5 @@ def main():
     print(ans)
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     main()
 
-=======
-    main()
->>>>>>> f42c56548300fc5b8680c29225b5e5c9d986b00b
