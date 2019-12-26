@@ -8,6 +8,10 @@ def main():
         ans = min(sub, ans)
     print(ans)
     print(A[n - 1] - A[0])
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> f42c56548300fc5b8680c29225b5e5c9d986b00b
 if __name__ == "__main__":
     main()

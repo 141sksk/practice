@@ -22,7 +22,7 @@ def main():
         if back > 0 and Q[back] == 0:
             Q[back] = stepCount + 1
             q.append(back)
-        print(q)
+        # print(q)
 
     if Q[goal] != 0:
         print(Q[goal])
